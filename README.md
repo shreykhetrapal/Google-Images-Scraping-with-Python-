@@ -10,3 +10,6 @@ with open('BookNames.csv') as csvfile:
         # print(type(row[0]))
         search_and_download(search_term=row[0],driver_path=DRIVER_PATH)
 ```        
+
+
+Download the Google Chrome  web driver from [here](https://chromedriver.chromium.org/downloads) 
